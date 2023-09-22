@@ -48,16 +48,14 @@
       <div class="container">
         <h2 class="h1 text-center">API project for weather</h2>
         <div class="search-box mt-4 p-4">
-          <form class="d-flex" action="">
+          <form class="d-flex search-form" >
             <input
-              class="form-control me-2"
+              class="form-control search-city me-2"
               type="search"
               placeholder="Search"
               aria-label="Search"
             />
-            <button class="btn btn-outline-success" type="submit">
-              Search
-            </button>
+            <input class="btn btn-search shadow-lg" type="submit" value="submit"></input>
           </form>
         </div>
         <div class="result mt-3 shadow">
@@ -65,12 +63,34 @@
             <div class="col-12 col-lg-6">
               <div class="weather-field text-center">
                 <h3 class="h2 my-2">Weather</h3>
-                <div></div>
+                <div class="weather-information">
+                    <div class="container">
+                        <div class="d-flex flex-column">
+                            <div class="my-2 weather-cf95 ">
+                                <div>Name</div>
+                                <div class="weather-name"></div>
+                            </div>
+                            <div class="my-2 weather-cf95 ">
+                                <div>Description</div>
+                                <div class="weather-decription"></div>
+                            </div>
+                            <div class="my-2 weather-cf95 ">
+                                <div>Temp</div>
+                                <div class="weather-temp"></div>
+                            </div>
+                            <div class="my-2 weather-cf95 ">
+                                <div>Humidity</div>
+                                <div class="weather-humidity"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
               </div>
             </div>
             <div class="col-12 col-lg-6">
               <div class="information-field text-center">
                 <h3 class="h2 my-2">Informaition</h3>
+                <div class="infoo"></div>
               </div>
             </div>
           </div>

@@ -9,3 +9,8 @@ header{background-color: #EAC696;}
 .main{background-color: #C8AE7D;width: 100%;height: 100%;}
 .search-box{ border: 1px solid #724e23; border-radius:10px ; -webkit-border-radius:10px ; -moz-border-radius:10px ; -ms-border-radius:10px ; -o-border-radius:10px ; }
 .result{ width: 100%; border: 1px solid #724e23; border-radius: 10px; -webkit-border-radius: 10px; -moz-border-radius: 10px; -ms-border-radius: 10px; -o-border-radius: 10px; }
+.btn-search{ background-color: #65451F; border-radius: 10px; -webkit-border-radius: 10px; -moz-border-radius: 10px; -ms-border-radius: 10px; -o-border-radius: 10px;color: #EAC696; }
+.btn-search:hover , .btn-search:focus{background-color: #EAC696;color: #65451F;}
+.shadow-lg {box-shadow: 0 1rem 3rem rgba(204, 112, 8, 0.175)!important;}
+h2 , h3{color: #493216;}
+.weather-cf95{display: flex;justify-content: space-between;border-bottom: 1px solid #493216;}
